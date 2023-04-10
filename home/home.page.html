@@ -1,5 +1,5 @@
 
-<ion-header [translucent]="true">
+<ion-header [translucent]="true" class="background">
   <ion-toolbar>
     <ion-title>
       LocalStorage UwU
@@ -8,23 +8,22 @@
 </ion-header>
 
 
-<ion-content style="text-align: center;">
-  <ion-input style="text-align: center;">{{recovertext}}</ion-input>
-  <ion-list>
-    <ion-item>
-      <p>
-        <ion-input style="text-align: center;" label="Ingrese Texto UwU" label-placement="floating" fill="solid" placeholder="Ingrese el texto a guardar" [(ngModel)]="receivetext">
-        </ion-input>
-      </p>
-    </ion-item>
+<ion-content style="text-align: center;" class="background">
+
+    <ion-input style="text-align: center;">
+      {{recovertext}}
+    </ion-input>
+
     
-    <p>
-      <ion-button (click)="print()">Guardar uwu</ion-button>
-    </p>
-  </ion-list>
+    <ion-input  style="text-align: center;" label="Ingrese Texto UwU" label-placement="floating" fill="solid" placeholder="Ingrese el texto a guardar" [(ngModel)]="receivetext">
+    </ion-input>
+        
+    <ion-button (click)="print()">Guardar uwu</ion-button>
+  
   <p>
     <img src="https://i.pinimg.com/originals/93/5f/03/935f03d4622cb39d3b30855f4d5a6d08.gif">
   </p>
+  
 
 </ion-content>
 

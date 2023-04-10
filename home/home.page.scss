@@ -12,7 +12,9 @@
   font-size: 20px;
   line-height: 26px;
 }
-
+#fondo{
+  background-color: #88bcf4;
+}
 #container p {
   font-size: 16px;
   line-height: 22px;
@@ -20,6 +22,13 @@
   color: #8c8c8c;
 
   margin: 0;
+}
+
+// #body {
+//   background-image: url('https://i.pinimg.com/originals/f9/df/0c/f9df0ccaab2d631e9183d7bc7cab8e5b.gif')
+// }
+ion-content.background{
+  --background: url('https://i.pinimg.com/originals/f9/df/0c/f9df0ccaab2d631e9183d7bc7cab8e5b.gif') 0 0/100% 100% no-repeat;
 }
 
 #container a {
